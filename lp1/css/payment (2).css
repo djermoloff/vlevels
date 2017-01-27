@@ -1,0 +1,167 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+h1, h2, h3, h4, h5, h5 {
+ font-family: "ProximaNovaCondensedExtrabold";    
+}
+
+@font-face {
+ font-family: "ProximaNovaRegular"; 
+ src: url(../fonts/ProximaNovaRegular.otf); 
+}
+
+@font-face {
+ font-family: "ProximaNovaLight"; 
+ src: url(../fonts/ProximaNovaLight.otf); 
+}
+
+@font-face {
+ font-family: "ProximaNovaSemibold"; 
+ src: url(../fonts/ProximaNovaSemibold.otf); 
+}
+
+@font-face {
+ font-family: "ProximaNovaBold"; 
+ src: url(../fonts/ProximaNovaBold.otf); 
+}
+
+@font-face {
+ font-family: "ProximaNovaCondensedBlack"; 
+ src: url(../fonts/ProximaNovaCondensedBlack.otf); 
+}
+
+@font-face {
+ font-family: "ProximaNovaCondensedExtrabold"; 
+ src: url(../fonts/ProximaNovaCondensedExtrabold.otf); 
+}
+
+body {
+ font-family: "ProximaNovaRegular";
+ line-height: 1.0em;
+}
+
+.header {
+ background: url('../img/bg-payment.jpg');
+ background-repeat:repeat-x;
+ height:160px;
+ }
+ 
+ .main {
+ claer:both;
+ overflow:hidden;
+ width:100%;
+ max-width:940px;
+ margin:0px auto;
+ }
+ 
+ .logo {
+ margin-top:15px;}
+ 
+ .l-td {
+ float:left;
+ width:421px;}
+ 
+ .r-td {
+ float:right;
+ width:421px;}
+ 
+ .table-header {
+ clear:both;
+ overflow:hidden;
+ background: url('../img/bg-table-header.jpg');
+ background-repeat:repeat-x;
+
+ }
+ 
+ .table-header {
+  clear:both;
+ overflow:hidden;
+ border:1px solid #dadbdf;
+ font-size:18px;
+ padding-left:18px;
+ padding-right:18px;
+ margin-top:20px;
+ }
+ 
+ .table-tr {
+ clear:both;
+ overflow:hidden;
+ font-size:14px;
+ border:1px solid #dadbdf;
+ border-top:none;
+ padding-left:18px;
+ padding-right:18px;
+ }
+ 
+ .table-tr-info {
+ clear:both;
+ overflow:hidden;
+ font-size:14px;
+ border:1px solid #dadbdf;
+ border-top:none;
+ border-bottom:none;
+ padding-left:18px;
+ padding-right:18px;
+ }
+ 
+ .table-label {
+ float:left;
+ padding-top:15px;
+ padding-bottom:15px;}
+ 
+ .table-value {
+ float:right;
+ padding-top:15px;
+ padding-bottom:15px;}
+ 
+ .table-input {
+ float:right;
+ width:60%;
+ padding-top:5px;
+ padding-bottom:5px;}
+ 
+ .table-input input {
+ width:100%;
+ padding-top:10px;
+ padding-bottom:10px;
+ border-radius:2px;
+ border:1px solid #e2e3e6;
+ }
+ 
+ .border-bottom {
+ border-bottom:1px solid #dadbdf;
+ }
+ 
+ .table-total-pay {
+ clear:both;
+ overflow:hidden;
+ font-size:24px;
+ font-family: ProximaNovaBold;
+ }
+ 
+ .table-r-label {
+ float:left;
+ font-family: ProximaNovaBold;
+color:1a1a1a; 
+padding-top:15px;
+ padding-bottom:15px;}
+ 
+ .table-price {
+ clear:both;
+ overflow:hidden;
+ font-size:38px;
+ }
+ 
+ .table-rp {
+ clear:both;
+ overflow:hidden;
+ font-size:18px;}
+ 
+ .table-p-label {
+ float:left;}
+ 
+ .table-r-value {
+  float:right;
+ }

@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/*** БАЗОВЫЕ СТИЛИ ДЛЯ ТЕГОВ И ТЕХН. КЛАССОВ ***/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body, #main-wrapper {
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	background-color: rgb(232,232,232);
+}
+#main-wrapper {
+	position: relative;
+	height: auto;
+	min-height: 100%;
+}
+
+body,
+input,
+select,
+button,
+textarea {
+	font-family: 'BlissPro-Light';
+	font-size: 14px;
+	font-weight: 400;
+	background: rgb(255,255,255);
+	color: rgb(0,0,0);
+	line-height: 1.4;
+	-webkit-font-smoothing: antialiased; /*сглаживание шрифов*/
+	-moz-osx-font-smoothing: grayscale; /*сглаживание шрифов*/
+	text-rendering: optimizeLegibility; /*сглаживание шрифов*/
+}
+
+a {	
+	color: rgb(0,0,0);
+	text-align: left;
+	text-decoration: none;
+	outline: none;
+	transition: 0.3s linear;
+	cursor: pointer;
+}
+	a:hover,
+	a:focus,
+	a:active,
+	a:link,
+	a:visited {
+		text-decoration: none;
+		outline: none;
+	}
+
+p {
+	text-align: left;
+}
+
+p,b,em,strong {
+	font-size: 14px;
+	color: rgb(0,0,0);
+}
+h1,h2,h3,h4,h5,h6 {
+	color: rgb(0,0,0);
+	line-height: 1.2;
+	font-weight: normal;
+	font-size: large;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, iframe {
+	display: block;
+	text-align: left;
+}
+
+ol,
+ul,
+nav ul {
+	list-style: none;
+	font-size: 14px;
+}
+
+i {
+	color: rgb(160,160,160);
+	cursor: pointer;
+	font-size: 14px;
+    transition: 0.3s linear;
+}
+i:hover {
+	color: rgb(0,0,0);
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+label {
+	display: inline-block;
+}
+
+select,
+input,
+button,
+textarea {
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+	background: none;
+	border: 1px solid;
+	padding: 2px;
+	box-sizing: border-box;
+	transition: 0.3s linear;
+}
+
+	::-moz-selection {
+		background: rgb(160,160,160);
+		color: #FFF;
+		text-shadow: none;
+	}
+
+	::selection {
+		background: rgb(160,160,160);
+		color: #FFF;
+		text-shadow: none;
+	}
+input {
+	padding: 2px 10px;
+}
+
+img {
+	max-width: 100%;
+	border: none;
+	-ms-interpolation-mode: bicubic;
+	image-rendering: optimizeQuality;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table th,
+table td {
+	text-align: center;
+}
+
+td {
+	padding: 0 20px;
+}
+
+
+/*** BASE ***/
